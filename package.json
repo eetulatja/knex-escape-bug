@@ -1,0 +1,16 @@
+{
+  "name": "knex-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker": "docker run --env POSTGRES_PASSWORD=password -p 80 postgres"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "knex": "^2.5.1",
+    "pg": "^8.11.2"
+  }
+}
